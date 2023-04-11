@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carritos",
+  "info": {
+    "singularName": "carrito",
+    "pluralName": "carritos",
+    "displayName": "Carrito"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "images": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    }
+  }
+}
